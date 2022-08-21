@@ -52,8 +52,9 @@
 }
 section {
   margin: 0px auto;
-  background-color: #642d68;
+  background-color: #0099ff;
   color: aliceblue;
+  opacity: 50%;
 }
 .About {
   padding-left: 20px;
@@ -79,11 +80,21 @@ section {
   display: flex;
   justify-content: center;
 }
-.myskill {
+.hobby{
+  display: flex;
+  justify-content: center;
+}
+.myhobby {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 250px;
+  margin-left: 250px;
 }
 footer {
+  margin-top: -5px;
   height: 35px;
-  background-color: cyan;
+  background-color: #000b76;
+  opacity: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
